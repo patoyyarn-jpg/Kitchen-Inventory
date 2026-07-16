@@ -1,0 +1,20 @@
+{
+  "name": "kitchen-inventory-alerts",
+  "version": "1.0.0",
+  "description": "Resort kitchen inventory tracker with scheduled reorder alerts (email + optional SMS)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.11.5",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.13",
+    "twilio": "^5.0.4",
+    "dotenv": "^16.4.5"
+  }
+}
